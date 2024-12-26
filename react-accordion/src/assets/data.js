@@ -1,11 +1,11 @@
 const data = [{
     id: 1,
-    question: 'Explain the Virtual DOM, and a pragmatic overview of how React renders it to the DOM.',
+    question: 'Explain the Virtual DOM',
     answer: 'The Virtual DOM is an interesting concept; it’s a complex idea that boils down into a much simpler algorithm.',
 },
 {
     id: 2,
-    question: 'Explain the standard JavaScript toolchain, transpilation (via Babel or other compilers), JSX, and these items’ significance in recent development. What sort of tools might you use in the build steps to optimize the compiled output React code?' ,
+    question: 'Explain the standard JavaScript toolchain, transpilation',
     answer: 'The bleeding edge JavaScript toolchain can seem quite complex, and it’s very important to feel confident in the toolchain and to have a mental picture of how the pieces fit together.',
 },
 {
@@ -24,3 +24,5 @@ const data = [{
     answer: 'Similarly to keys, refs are added as an attribute to a React.createElement() call, such as <li ref="someName"/>. The ref serves a different purpose, it provides us quick and simple access to the DOM Element represented by a React Element.',
 }
 ]
+
+export default data
