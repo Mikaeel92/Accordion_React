@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const App = () => {
+
+  const [show, setShow] = useState(false)
+
   return (
-    <div className='text-3xl text-red-700'>App</div>
+    <div className=''>
+      
+    </div>
   )
 }
 
